@@ -68,3 +68,4 @@ admin.site.register(Product,ProductAdmin)
 
 ## RESULT
 Thus the program for creating E-commerce website database using ORM hass been executed successfully
+    
