@@ -37,6 +37,7 @@ Execute Django admin using localhost and create details for 10 entries
 ## PROGRAM
 ```
 models.py
+
 from django.db import models
 from django.contrib import admin
 class Product(models.Model):
@@ -50,14 +51,13 @@ class Product(models.Model):
 
 class ProductAdmin(admin.ModelAdmin):
     list_display=["sl_no","category","price","stockquantity","rating","description","maximum_retail_price"]
-
-
-
-
+cd 
 admins.py
+
 from django.contrib import admin
 from.models import Product,ProductAdmin
 admin.site.register(Product,ProductAdmin)
+
 ```
 
 
@@ -68,4 +68,3 @@ admin.site.register(Product,ProductAdmin)
 
 ## RESULT
 Thus the program for creating E-commerce website database using ORM hass been executed successfully
-    
